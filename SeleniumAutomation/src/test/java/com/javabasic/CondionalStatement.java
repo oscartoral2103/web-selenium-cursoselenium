@@ -63,7 +63,7 @@ public class CondionalStatement {
 
 	//SWITCH CASE
 		
-		int temperatura = 22;
+		int temperatura = 20;
 		switch(temperatura) {
 		case 10:
 			System.out.println("Frio");
