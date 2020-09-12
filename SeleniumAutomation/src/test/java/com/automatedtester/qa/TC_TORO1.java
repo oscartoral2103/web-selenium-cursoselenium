@@ -23,7 +23,7 @@ public class TC_TORO1 {
 	
 	  //STEP 1 ABRIENDO PAGINA PX
 	  Reporter.log("Abriendo Explorador");
-	  System.setProperty("webdriver.chrome.driver", "./drivers/chrome/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chrome/chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
 	   driver.get("http://www.praxis.com.mx/Sistemas");
 	 driver.manage().window().maximize();
@@ -43,12 +43,7 @@ public class TC_TORO1 {
 	 driver.findElement(By.xpath("//*[@id=\"menu\"]/li[2]/a")).click();
 	 driver.findElement(By.cssSelector("#menu > li:nth-child(2)")).click();
 
-	
-	//*[@id="menu"]/li[2]/a
-	//*[@id="menu"]/li[2]/a
-	 
-	 
-	 
+
 	 
 	 //STEP 4 USUARIO Y PASSWORD
 	 
